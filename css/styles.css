@@ -1,0 +1,87 @@
+.body {
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --leading-color: #000;
+  --action-color: #2196f3;
+  --text-action-color: #fff;
+  --contacts-color: #757575;
+  --background-footer: #2f303a;
+  --background-menu: #fff;
+  --background-main: #e5e5e5;
+  --background-team: #f5f4fa;
+}
+
+.logo {
+  font-family: "Raleway";
+  color: var(--action-color);
+}
+
+.logo > span {
+  color: var(--leading-color);
+}
+
+.agency,
+.portfolio,
+.contact {
+  color: var(--leading-color);
+}
+
+.agency:hover,
+.agency:focus,
+.portfolio:hover,
+.portfolio:focus,
+.contact:hover,
+.contact:focus {
+  color: var(--action-color);
+}
+
+.button-service {
+  background: var(--action-color);
+  color: var(--text-action-color);
+}
+
+.button-all:hover,
+.button-all:focus,
+.button-pages:hover,
+.button-pages:focus,
+.button-apps:hover,
+.button-apps:focus,
+.button-design:hover,
+.button-design:focus,
+.button-marketing:hover,
+.button-marketing:focus {
+  background: var(--action-color);
+  color: var(--text-action-color);
+}
+
+.mail,
+.phone {
+  color: var(--contacts-color);
+}
+
+.mail:hover,
+.mail:focus,
+.phone:hover,
+.phone:focus {
+  color: var(--action-color);
+}
+
+.header,
+.footer {
+  background: var(--background-footer);
+}
+
+.menu {
+  background: var(--background-menu);
+}
+
+.main,
+.activities {
+  background: var(--background-main);
+}
+
+.team {
+  background: var(--background-team);
+}

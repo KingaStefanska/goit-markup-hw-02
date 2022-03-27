@@ -1,8 +1,10 @@
 .body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font), var(--second-font);
 }
 
 :root {
+  --main-font: "Roboto", sans-serif;
+  --second-font: "Raleway", sans-serif;
   --leading-color: #000;
   --action-color: #2196f3;
   --text-action-color: #fff;
@@ -11,21 +13,42 @@
   --background-menu: #fff;
   --background-main: #e5e5e5;
   --background-team: #f5f4fa;
+  --title-lorem: #212121;
+  --text-lorem: #757575;
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: var(--second-font);
   color: var(--action-color);
+  font-size: 26px;
+}
+
+.logo,
+.logo2 {
+  line-height: 1.2;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.logo2 {
+  font-family: var(--second-font);
+  color: var(--action-color);
+  font-size: 26px;
 }
 
 .logo > span {
   color: var(--leading-color);
 }
 
+.logo2 > span {
+  color: var(--text-action-color);
+}
+
 .agency,
 .portfolio,
 .contact {
   color: var(--leading-color);
+  font-size: 14px;
 }
 
 .agency:hover,
@@ -37,9 +60,76 @@
   color: var(--action-color);
 }
 
+.agency,
+.portfolio,
+.contact,
+.mail,
+.phone {
+  line-height: 1.1;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.title-one {
+  color: var(--text-action-color);
+  font-size: 44px;
+  line-height: 1.36;
+  font-weight: 900;
+}
+
 .button-service {
   background: var(--action-color);
   color: var(--text-action-color);
+  font-size: 16px;
+  line-height: 1.88;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.title-lorem {
+  color: var(--title-lorem);
+  font-size: 14px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.text-lorem {
+  color: var(--text-lorem);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.title-activities,
+.title-team {
+  color: var(--title-lorem);
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.person-name {
+  color: var(--title-lorem);
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.occupation {
+  color: var(--text-lorem);
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.button-all,
+.button-pages,
+.button-apps,
+.button-design,
+.button-marketing {
+  color: var(--title-lorem);
+  font-size: 16px;
+  line-height: 1.62;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 .button-all:hover,
@@ -56,18 +146,53 @@
   color: var(--text-action-color);
 }
 
+.title-portfolio-link {
+  color: var(--title-lorem);
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+}
+
+.description-portfolio-link {
+  color: var(--text-lorem);
+  font-size: 16px;
+  line-height: 1.88;
+}
+
 .mail,
 .phone {
   color: var(--contacts-color);
+  font-size: 14px;
 }
 
 .mail:hover,
 .mail:focus,
 .phone:hover,
-.phone:focus {
+.phone:focus,
+.mail2:hover,
+.mail2:focus,
+.phone2:hover,
+.phone2:focus {
   color: var(--action-color);
 }
 
+.mail2,
+.phone2 {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+}
+
+.address {
+  color: var(--text-action-color);
+  font-size: 14px;
+}
+
+.mail2,
+.phone2,
+.address {
+  line-height: 1.71;
+  text-decoration: none;
+}
 .header,
 .footer {
   background: var(--background-footer);

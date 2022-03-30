@@ -120,11 +120,7 @@
   line-height: 1.2;
 }
 
-.button-all,
-.button-pages,
-.button-apps,
-.button-design,
-.button-marketing {
+.button {
   color: var(--title-lorem);
   font-size: 16px;
   line-height: 1.62;
@@ -132,16 +128,8 @@
   cursor: pointer;
 }
 
-.button-all:hover,
-.button-all:focus,
-.button-pages:hover,
-.button-pages:focus,
-.button-apps:hover,
-.button-apps:focus,
-.button-design:hover,
-.button-design:focus,
-.button-marketing:hover,
-.button-marketing:focus {
+.button:hover,
+.button:focus {
   background: var(--action-color);
   color: var(--text-action-color);
 }

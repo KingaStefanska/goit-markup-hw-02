@@ -1,5 +1,6 @@
 .body {
   font-family: var(--main-font), var(--second-font);
+  background: var(--background-menu);
 }
 
 :root {
@@ -192,7 +193,7 @@
 
 .main,
 .activities {
-  background: var(--background-main);
+  background: var(--background-menu);
 }
 
 .team {
